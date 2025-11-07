@@ -49,7 +49,7 @@ jobs:
       - name: 🚀 Run Python scripts
         run: |
           python BTCPrice.py
-        # python ETHPrice.py
+          python ETHPrice.py
           
       # 📤 Commit and Push Changes 
       # The git user.name and user.email are what identify the committer as 'GitHub Actions'
